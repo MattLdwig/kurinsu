@@ -1,0 +1,16 @@
+.user-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border: none;
+    margin-left: 20px;
+    color: #9C9C9C;
+}
+
+
+
+.user-links__social {
+    width: 30px;
+}

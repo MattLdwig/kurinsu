@@ -1,0 +1,26 @@
+.social-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.social-links > div {
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.social-links  circle {
+    fill: #D7D7D7;
+}
+
+.social-links path {
+    fill: #F1F1F1;
+}
+
+.share-count {
+    text-align: center;
+}

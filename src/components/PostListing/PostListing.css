@@ -1,0 +1,133 @@
+.post-listing__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0;
+}
+
+.post-listing__container_sub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post-card__hero {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    max-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 3em;
+    position: relative;
+}
+
+.post-card__info {
+    margin: 0 auto;
+    color: #FFF;
+
+}
+
+.post-card__hero-title {
+    line-height: 1.5;
+}
+
+.post-cover__hero {
+    width: 800px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+
+.post-card__btn {
+    width: 260px;
+    height: 60px;
+    background: var(--accentColor);
+    border: none;
+    margin-top: 40px;
+}
+
+.post-card__btn:hover {
+    -webkit-box-shadow: 10px 10px 53px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 10px 10px 53px 0px rgba(0,0,0,0.22);
+    box-shadow: 10px 10px 53px 0px rgba(0,0,0,0.22);
+}
+
+.post-card__btn a {
+    color: #FFF;
+    font-size: 1.4em;
+}
+
+.post-card {
+    flex: 1;
+    min-width: calc((100% / 3) - 20px);
+    text-align: center;
+    opacity: 0.5;
+}
+
+.post-card:hover {
+    opacity: 1;
+    transition: opacity ease-in 0.3s;
+}
+
+.post-cover {
+    width: 100%;
+}
+
+.post-card__title {
+    font-size: 1.266em;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+.post-listing__sub {
+    grid-column: 1 / -1;
+    background: var(--bgColor);
+    padding: 40px 0;
+}
+
+.post-listing__sub_title {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 1.802em;
+    opacity: 0.4;
+}
+
+.post-card__tag,
+.post-card__date {
+    font-size: 0.7em;
+    color: #FFF;
+}
+
+.post-card__date {
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+.post-card__date-sub {
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+.post-card__more {
+    width: 200px;
+    padding: 1em 0;
+    color: #FFF;
+    border-top: 3px solid #F1F1F1;
+}
+
+@media screen and (max-width: 1300px) {
+    .post-cover__hero {
+        height: auto;
+        width: 100%;
+    }
+    .post-card {
+        flex: none;
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+.header--container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+}
+
+.primary-nav__items {
+    list-style-type: none;
+    display: flex;
+}
+
+.item {
+    margin-right: 60px; 
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.item.no-margin{
+    margin: 0;
+}
+
+@media screen and (max-width: 1350px) {
+    .header--container {
+        
+    }
+}
