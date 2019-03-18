@@ -2,13 +2,13 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import PostListingProd from '../components/PostListing/PostLinstingProd';
+import PostListingInsp from '../components/PostListing/PostListingInsp';
 import SEO from "../components/SEO/SEO";
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import config from "../../data/SiteConfig";
 
-class Productivite extends React.Component {
+class Inspiration extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
@@ -17,7 +17,7 @@ class Productivite extends React.Component {
           <Helmet title={config.siteTitle} />
           <SEO />
           <Header config={config}/>
-          <PostListingProd postEdges={postEdges} />
+          <PostListingInsp postEdges={postEdges} />
           <Footer config={config}/>
         </div>
       </Layout>
@@ -25,11 +25,11 @@ class Productivite extends React.Component {
   }
 }
 
-export default Productivite;
+export default Inspiration;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query ProdQuery {
+  query InspQuery {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [fields___date], order: DESC }

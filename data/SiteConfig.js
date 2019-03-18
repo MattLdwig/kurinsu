@@ -66,7 +66,7 @@ const config = {
     },
     {
       name: 'newsletter',
-      link: '/newsletter'
+      link: '#newsletter'
     }
   ],
   copyright: "Copyright © 2019. Kurinsu", // Copyright string for the footer of the website and RSS feed.

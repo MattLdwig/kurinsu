@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import './PostListing.css';
 
-class PostListingProd extends React.Component {
+class PostListingDev extends React.Component {
   getPostList() {
     const postList = [];
     this.props.postEdges.forEach(postEdge => {
@@ -24,11 +24,11 @@ class PostListingProd extends React.Component {
     const postList = this.getPostList();
     return (
       <section className="post-listing__sub">
-        <h2 className="post-listing__sub_title">⚙️ Productivité ⚙️</h2>
+        <h2 className="post-listing__sub_title">🕊️ Développement personnel 🕊️</h2>
         <div className="post-listing__container_sub">
             {/* Your post list here. */
             postList.map(post => {
-            if (post.category === 'productivite') {
+            if (post.category === 'developpement') {
             return (
                 <div className="post-card"> 
                     <Link to={post.path} key={post.title}>
@@ -46,4 +46,4 @@ class PostListingProd extends React.Component {
   }
 }
 
-export default PostListingProd;
+export default PostListingDev;

@@ -1,7 +1,7 @@
 ---
 title: "Résoudre ses problèmes grâce à la méthode des 5 pourquoi"
 cover: "https://source.unsplash.com/user/sarahdorweiler/1200x800"
-category: "moar"
+category: "developpement"
 date: "2019/03/01"
 slug: "methode-des-cinq-pourquoi"
 tags:
