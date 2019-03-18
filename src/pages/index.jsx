@@ -1,4 +1,5 @@
 import React from "react";
+import PageTransition from 'gatsby-plugin-page-transitions';
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
@@ -14,16 +15,18 @@ class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <Layout>
-        <div className="index-container">
-          <Helmet title={config.siteTitle} />
-          <SEO />
-          <Header config={config}/>
-          <PostListing postEdges={postEdges} />
-          <PostListingSub postEdges={postEdges} />
-          <Footer config={config}/>
-        </div>
-      </Layout>
+      <PageTransition>
+        <Layout>
+          <div className="index-container">
+            <Helmet title={config.siteTitle} />
+            <SEO />
+            <Header config={config}/>
+            <PostListing postEdges={postEdges} />
+            <PostListingSub postEdges={postEdges} />
+            <Footer config={config}/>
+          </div>
+        </Layout>
+      </PageTransition>
     );
   }
 }

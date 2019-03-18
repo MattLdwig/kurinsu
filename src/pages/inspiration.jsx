@@ -1,4 +1,5 @@
 import React from "react";
+import PageTransition from 'gatsby-plugin-page-transitions';
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
@@ -12,15 +13,17 @@ class Inspiration extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <Layout>
-        <div className="index-container">
-          <Helmet title={config.siteTitle} />
-          <SEO />
-          <Header config={config}/>
-          <PostListingInsp postEdges={postEdges} />
-          <Footer config={config}/>
-        </div>
-      </Layout>
+      <PageTransition>
+            <Layout>
+            <div className="index-container">
+            <Helmet title={config.siteTitle} />
+            <SEO />
+            <Header config={config}/>
+            <PostListingInsp postEdges={postEdges} />
+            <Footer config={config}/>
+            </div>
+        </Layout>
+      </PageTransition>
     );
   }
 }
