@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import PostListingSub from '../components/PostListing/PostListingSub';
+import Newsletter from '../components/Newsletter/Newsletter';
 import SEO from "../components/SEO/SEO";
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';

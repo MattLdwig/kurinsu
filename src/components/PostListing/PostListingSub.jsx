@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Newsletter from '../Newsletter/Newsletter';
 import './PostListing.css';
 
 class PostListingSub extends React.Component {
@@ -27,7 +28,24 @@ class PostListingSub extends React.Component {
         <div className="post-listing__container_sub">
             {/* Your post list here. */
             postList.map(post => {
-            if (post !== postList[0]) {
+            if (post === postList[1] || post === postList[2] || post === postList[3]) {
+            return (
+                <div className="post-card"> 
+                    <Link to={post.path} key={post.title}>
+                        <img src={post.cover} className={'post-cover'} />
+                        <h2 className="post-card__title">{post.title}</h2>
+                        <p className="post-card__date-sub">{post.displayDate}</p>
+                    </Link>
+                </div>
+                )   
+          }
+        })}
+        </div>
+        <Newsletter />
+        <div className="post-listing__container_sub">
+            {/* Your post list here. */
+            postList.map(post => {
+            if (post !== postList[0] && post !== postList[1] && post !== postList[2] && post !== postList[3]) {
             return (
                 <div className="post-card"> 
                     <Link to={post.path} key={post.title}>
