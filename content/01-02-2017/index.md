@@ -1,5 +1,5 @@
 ---
-title: "The Fallen Time"
+title: "7 astuces pour reprendre le contrôle face au stress."
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 date: "01/02/2017"
 category: "another one"

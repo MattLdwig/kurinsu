@@ -25,7 +25,7 @@ class PostListing extends React.Component {
       <div className="post-listing__container">
         {/* Your post list here. */
         postList.map(post => {
-          const style = { background: 'linear-gradient(rgba(51,51,51,.1), rgba(51,51,51,1)), url(' + post.cover + ')'}
+          const style = {background: 'linear-gradient(rgba(51,51,51,.1), rgba(51,51,51,1)), url(' + post.cover + ')', backgroundPosition: 'top'}
           if (post === postList[0]) {
             return (
               <div className="post-card__hero" style={style}>

@@ -35,12 +35,22 @@
 	width: 300px;
 }
 
+.form-control:focus {
+    border: 2px solid var(--accentColor);
+}
+
 .btn {
     border: none;
     width: 300px;
     padding: 10px;
     background: var(--bgColor);
     margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.5s ease-out;
+}
+
+.btn:hover {
+    background: var(--accentColor);
 }
 
 .newsletter__illustration {
@@ -49,3 +59,46 @@
     background: url(https://source.unsplash.com/user/sarahdorweiler/600x300);
     background-position: center top;
 }
+
+
+/*** MEDIA QUERIES ***/
+
+@media screen and (max-width: 1280px) {
+	.newsletter-container {
+       max-width: calc(100% - 60px);
+	}
+
+}
+
+@media screen and (max-width: 1080px) {
+	.newsletter-container {
+       max-width: calc(100% - 60px);
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background: url('/icons/cover.svg');
+       padding: 1em;
+       height: auto;
+    }
+    .newsletter__title {
+        text-align: center;
+    }
+
+    .newsletter__info {
+        width: 100%;
+    }
+
+    .newsletter__illustration {
+        display: none;
+    }
+
+    .btn {
+        background: var(--textColor);
+        font-size: 1em;
+        color: #FFF;
+    }
+
+}
+
+
+

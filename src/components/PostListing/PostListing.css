@@ -131,3 +131,56 @@
         min-width: 100%;
     }
 }
+
+
+/*** MEDIA QUERIES ***/
+
+@media screen and (max-width: 1280px) {
+	.index-container {
+		grid-template-columns: 30px 1fr 30px;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+    .post-listing__container_sub {
+        grid-template-columns: 1fr;
+    }
+
+    .post-cover {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .post-card__hero {
+        background-position: top;
+    }
+    .post-card__hero-title {
+        font-size: 1.266em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .post-listing__sub_title {
+        font-size: 1.424em;
+    }
+    .post-card__title {
+        font-size: 1.125em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .post-card {
+        opacity: 1;
+        border-bottom: 1px solid rgba(0,0,0,0.22);
+    }
+    .post-cover {
+        width: 100%;
+    }
+    .post-listing__container_sub {
+        grid-template-columns: 1fr;
+    }
+}
+

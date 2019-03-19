@@ -1,5 +1,5 @@
 ---
-title: "The Butterfly of the Edge"
+title: "15 astuces pour retrouver le contact avec la nature"
 cover: "https://unsplash.it/400/300/?random?TheButterflyoftheEdge"
 category: "tech"
 date: "17/03/2017"

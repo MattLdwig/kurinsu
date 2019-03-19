@@ -1,8 +1,10 @@
 import React from "react";
+import PageTransition from 'gatsby-plugin-page-transitions';
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import Header from "../components/Header/Header";
+import Footer from '../components/Footer/Footer';
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -24,7 +26,8 @@ export default class PostTemplate extends React.Component {
       post.category_id = config.postDefaultCategoryID;
     }
     return (
-      <Layout>
+     <PageTransition>
+        <Layout>
         <div class="index-container">
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
@@ -36,14 +39,15 @@ export default class PostTemplate extends React.Component {
             <h1 className="post-container__title">{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta">
-              <PostTags tags={post.tags} />
               <SocialLinks postPath={slug} postNode={postNode} />
             </div>
             <UserInfo config={config} />
             <Disqus postNode={postNode} />
           </div>
+          <Footer config={config} />
         </div>
       </Layout>
+     </PageTransition>
     );
   }
 }

@@ -25,3 +25,26 @@
     text-align: center;
     margin: 0;
 }
+
+
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+    }
+    .notice-container > span {
+        text-align: center;
+        font-size: 0.7em;
+    }
+    div.user-links {
+        margin: 20px 0;
+    }
+    .user-links:first-of-type {
+        margin-left: 0;
+    }
+    .user-links__social {
+        width: 40px;
+    }
+}

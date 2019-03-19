@@ -1,5 +1,5 @@
 ---
-title: "Random project 4 With Super Long Title Phase One"
+title: "États d'esprit fixe VS état d'esprit de croissance"
 cover: "https://unsplash.it/400/300/?random?SuperLong"
 category: "random"
 date: "02/03/2017"

@@ -1,5 +1,5 @@
 ---
-title: "Angels of Mist"
+title: "Comment se désintoxiquer des emails ?"
 cover: "https://unsplash.it/400/300/?random?AngelsofMist"
 category: "inspiration"
 date: "01/03/2017"
