@@ -30,8 +30,8 @@ class PostListingSub extends React.Component {
             postList.map(post => {
             if (post === postList[1] || post === postList[2] || post === postList[3]) {
             return (
-                <div className="post-card"> 
-                    <Link to={post.path} key={post.title}>
+                <div className="post-card" key={post.title}> 
+                    <Link to={post.path} key={`${post.title}_sub`}>
                         <img src={post.cover} className={'post-cover'} />
                         <h2 className="post-card__title">{post.title}</h2>
                         <p className="post-card__date-sub">{post.displayDate}</p>
@@ -47,8 +47,8 @@ class PostListingSub extends React.Component {
             postList.map(post => {
             if (post !== postList[0] && post !== postList[1] && post !== postList[2] && post !== postList[3]) {
             return (
-                <div className="post-card"> 
-                    <Link to={post.path} key={post.title}>
+                <div className="post-card" key={post.title}> 
+                    <Link to={post.path} key={`${post.title}_sub`}>
                         <img src={post.cover} className={'post-cover'} />
                         <h2 className="post-card__title">{post.title}</h2>
                         <p className="post-card__date-sub">{post.displayDate}</p>

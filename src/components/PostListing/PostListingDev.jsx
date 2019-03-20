@@ -30,8 +30,8 @@ class PostListingDev extends React.Component {
             postList.map(post => {
             if (post.category === 'developpement') {
             return (
-                <div className="post-card"> 
-                    <Link to={post.path} key={post.title}>
+                <div className="post-card" key={post.title}> 
+                    <Link to={post.path} key={`${post.title}_dev`}>
                         <img src={post.cover} className={'post-cover'} />
                         <h2 className="post-card__title">{post.title}</h2>
                         <p className="post-card__date-sub">{post.displayDate}</p>

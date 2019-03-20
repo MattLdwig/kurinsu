@@ -9,7 +9,7 @@ const config = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  disqusShortname: "kurinsu", // Disqus shortname.
   postDefaultCategoryID: "Développement personnel", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
@@ -24,25 +24,25 @@ const config = {
   userLinks: [
     {
       label: "Insta",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      url: "https://instagram.com/kurinsu",
       iconClassName: "fa fa-instagram",
       icon: "/icons/instagram.svg"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/kurinsu",
       iconClassName: "fa fa-twitter",
       icon: "/icons/twitter.svg"
     },
     {
       label: "Facebook",
-      url: "mailto:vagr9k@gmail.com",
+      url: "https://facebook.com/kurinsu",
       iconClassName: "fa fa-envelope",
       icon: "/icons/facebook.svg"
     },
     {
       label: "Medium",
-      url: "mailto:vagr9k@gmail.com",
+      url: "https://medium.com/kurinsu",
       iconClassName: "fa fa-envelope",
       icon: "/icons/medium.svg"
     }

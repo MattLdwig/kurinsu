@@ -28,7 +28,7 @@ export default class PostTemplate extends React.Component {
     return (
      <PageTransition>
         <Layout>
-        <div class="index-container">
+        <div className="index-container">
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>

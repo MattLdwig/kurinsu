@@ -1,5 +1,10 @@
 const urljoin = require("url-join");
 const config = require("./data/SiteConfig");
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+
+exports.onCreateNode = ({ node }) => {
+  fmImagesToRelative(node);
+};
 
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
@@ -67,9 +72,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-relative-images`,
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 690
+              maxWidth: 760
             }
           },
           {

@@ -25,13 +25,14 @@ class PostListingInsp extends React.Component {
     return (
       <section className="post-listing__sub">
         <h2 className="post-listing__sub_title">💡 Inspiration 💡</h2>
+        <p className="post-listing__sub_construct">Cette page est toujours en construction 🏗️ et ne contient pas encore d'articles. Mais promis, ils sont en cours d'écriture 💻 ☕</p>
         <div className="post-listing__container_sub">
             {/* Your post list here. */
             postList.map(post => {
             if (post.category === 'inspiration') {
             return (
-                <div className="post-card"> 
-                    <Link to={post.path} key={post.title}>
+                <div className="post-card" key={post.title}> 
+                    <Link to={post.path} key={`${post.title}_insp`}>
                         <img src={post.cover} className={'post-cover'} />
                         <h2 className="post-card__title">{post.title}</h2>
                         <p className="post-card__date-sub">{post.displayDate}</p>

@@ -25,22 +25,22 @@ class PostListing extends React.Component {
       <div className="post-listing__container">
         {/* Your post list here. */
         postList.map(post => {
-          const style = {background: 'linear-gradient(rgba(51,51,51,.1), rgba(51,51,51,1)), url(' + post.cover + ')', backgroundPosition: 'top'}
+          const style = {background: 'url(' + post.cover + ')', backgroundPosition: 'top', backgroundSize: 'cover'}
           if (post === postList[0]) {
             return (
-              <div className="post-card__hero" style={style}>
-              <p className="post-card__complementary">
-                <span className="post-card__tag">{post.tags}</span>
-                <span className="post-card__date">{post.displayDate}</span>
-              </p> 
-              <Link to={post.path} key={post.title}>
-              <div className="post-card__info">
-                <h1 className="post-card__hero-title">{post.title}</h1>
-              </div>
-              <div className="post-card__more">
-                <span>LIRE L'ARTICLE</span>
-              </div>
-            </Link>
+              <div className="post-card__hero" style={style} key={post.title}>
+                <p className="post-card__complementary">
+                  <span className="post-card__tag">{post.tags}</span>
+                  <span className="post-card__date">{post.displayDate}</span>
+                </p> 
+                <Link to={post.path} key={`${post.title}_post`} className="post-card__link">
+                <div className="post-card__info">
+                  <h1 className="post-card__hero-title">{post.title}</h1>
+                </div>
+                <div className="post-card__more">
+                  <span>LIRE L'ARTICLE</span>
+                </div>
+              </Link>
           </div>
             )   
           }

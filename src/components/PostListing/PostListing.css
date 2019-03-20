@@ -25,12 +25,27 @@
     text-align: left;
     padding: 3em;
     position: relative;
+    margin-bottom: 30px;
+}
+
+.post-card__hero:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.22));
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index: 0;
+}
+
+.post-card__link {
+    z-index: 1;
 }
 
 .post-card__info {
     margin: 0 auto;
     color: #FFF;
-
 }
 
 .post-card__hero-title {
@@ -40,7 +55,6 @@
 .post-cover__hero {
     width: 800px;
     height: 100%;
-    margin-bottom: 30px;
 }
 
 
@@ -67,12 +81,12 @@
     flex: 1;
     min-width: calc((100% / 3) - 20px);
     text-align: center;
-    opacity: 0.5;
 }
 
 .post-card:hover {
     opacity: 1;
-    transition: opacity ease-in 0.3s;
+    transition: transform ease-in 0.3s;
+    transform: scale(1.1);
 }
 
 .post-cover {
@@ -98,6 +112,12 @@
     opacity: 0.7;
 }
 
+.post-listing__sub_construct {
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
 .post-card__tag,
 .post-card__date {
     font-size: 0.7em;
@@ -105,7 +125,7 @@
 }
 
 .post-card__date {
-    opacity: 0.5;
+    opacity: 0.7;
     margin-left: 20px;
 }
 

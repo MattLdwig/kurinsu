@@ -1,12 +1,12 @@
 ---
 title: "Résoudre ses problèmes grâce à la méthode des 5 pourquoi"
-cover: "https://source.unsplash.com/user/sarahdorweiler/1200x800"
+cover: "/img/posts_cover/five_why.jpg"
 category: "developpement"
-date: "2019/03/01"
+date: "2019/03/20"
 slug: "methode-des-cinq-pourquoi"
 tags:
     - DEVELOPPEMENT PERSONNEL
-displayDate: '17 mars'
+displayDate: '20 mars'
 ---
 
 Nos vies sont pleines de problèmes. 
@@ -67,7 +67,7 @@ Dans le même temps, je pourrai aussi chercher une nouvelle activité détendant
 
 Listez toute les idées de solutions qui vous viennent à l'esprit puis accordez vous un moment de repos. Quelques heures plus tard (ou le lendemain par exemple), reprennez votre liste d'idées et faite le tri. Ne reste plus qu'à sélectionner les solutions qui vous semblent les plus appropriées (en essayant d'en trouver au moins une applicable immédiatement) et à les mettre en place dans votre quotidien. 
 
-## Et vous, comment allez-vous appliquer la méthode des 5 pourquoi ?
+### Et vous, comment allez-vous appliquer la méthode des 5 pourquoi ?
 
 Je suis certain que vous avez, vous-aussi, des problèmes *icebergs* que vous aimeriez résoudrent. Alors, pourquoi ne pas essayez d'en découvrir la source avec la **méthode des 5 pourquoi** ?
 

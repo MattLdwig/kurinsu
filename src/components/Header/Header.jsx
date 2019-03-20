@@ -22,7 +22,6 @@ class Header extends Component {
   render() {
     const { config } = this.props;
     const url = config.menuLink;
-    console.log(url);
     const { copyright } = config;
     const logo = config.siteLogo;
     if (!copyright) {
