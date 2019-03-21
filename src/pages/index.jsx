@@ -1,5 +1,4 @@
 import React from "react";
-import PageTransition from 'gatsby-plugin-page-transitions';
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
@@ -15,7 +14,6 @@ class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <PageTransition>
         <Layout>
           <div className="index-container">
             <Helmet title={config.siteTitle} />
@@ -26,7 +24,6 @@ class Index extends React.Component {
             <Footer config={config}/>
           </div>
         </Layout>
-      </PageTransition>
     );
   }
 }
