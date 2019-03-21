@@ -51,6 +51,7 @@ export const pageQuery = graphql`
             cover
             date
             category
+            description
           }
         }
       }

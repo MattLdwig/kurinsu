@@ -4,6 +4,7 @@ cover: "/img/posts_cover/five_why.jpg"
 category: "developpement"
 date: "2019/03/20"
 slug: "methode-des-cinq-pourquoi"
+description: "Vous souhaitez régler un problème mais vous ne savez pas par où commencer. Découvrez la méthode des cinq pourquoi, un outil simple pour vous aider à découvrir la source d'un problème."
 tags:
     - DEVELOPPEMENT PERSONNEL
 displayDate: '20 mars'
@@ -21,7 +22,7 @@ Pour résoudre ce genre de cas, il va falloir creuser un peu. C'est ici qu'inter
 
 ## La méthode des cinq pourquoi ?
 
-La méthode des cinq pourquoi est un outil incroyablement simple permettant de trouver la **source du problème** auquel vous faite face. Elle se base sur une chose que nous savions parfaitement faire lorsque nous étions enfant: répéter inlassablement la même question, pourquoi. 
+La méthode des cinq pourquoi est un outil incroyablement simple permettant de trouver la **source du problème** auquel vous faite face. Elle se base sur une chose que nous savions parfaitement faire lorsque nous étions enfant: répéter inlassablement la même question, **pourquoi**. 
 
 Le processus est simple:
 
@@ -34,6 +35,8 @@ Le processus est simple:
      - Si non, continuez le processus jusqu'à atteindre un niveau de compréhension du problème que vous estimez satisfaisant.
 
 Les "vrais" problèmes sont comme des icebergs Ils ne laissent apparaître qu'une infime portion de ce qu'ils sont vraiment.
+
+![iceberg](./img/iceberg.jpg)
 
 C'est ce qu'avait compris l'industriel japonais Sakichi Toyada. Fondateur de l'entreprise Toyota, Sakichi Toyada a développée cette méthode pour **résoudre les problèmes** rencontrés au sein de son entreprise. 
 

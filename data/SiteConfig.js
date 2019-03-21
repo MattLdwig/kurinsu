@@ -7,10 +7,10 @@ const config = {
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Développement personnel, inspiration et productivité.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  siteFBAppID: "", // FB Application ID for using app insights
+  googleAnalyticsID: "UA-59515367-9", // GA tracking ID.
   disqusShortname: "kurinsu", // Disqus shortname.
-  postDefaultCategoryID: "Développement personnel", // Default category for posts.
+  postDefaultCategoryID: "developpement", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Cala", // Username to display in the author segment.

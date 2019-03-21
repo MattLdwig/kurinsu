@@ -90,6 +90,19 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-cookiehub`,
+      options: {
+        // your cookiehub widget ID
+        cookihubId: `7b92a6dd`,
+        // your google analytics tracking id
+        trackingId: `UA-59515367-9`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,        
+      },
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: config.googleAnalyticsID
@@ -167,7 +180,7 @@ module.exports = {
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.fields.date,
                 title: edge.node.frontmatter.title,
-                description: edge.node.excerpt,
+                description: edge.node.description,
                 url: rssMetadata.site_url + edge.node.fields.slug,
                 guid: rssMetadata.site_url + edge.node.fields.slug,
                 custom_elements: [
@@ -197,6 +210,7 @@ module.exports = {
                       date
                       category
                       tags
+                      description
                     }
                   }
                 }

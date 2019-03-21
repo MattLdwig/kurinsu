@@ -7,6 +7,7 @@
     "gatsby": "2.0.91",
     "gatsby-image": "2.0.26",
     "gatsby-plugin-catch-links": "2.0.9",
+    "gatsby-plugin-cookiehub": "^1.0.0",
     "gatsby-plugin-feed": "2.0.11",
     "gatsby-plugin-google-analytics": "2.0.9",
     "gatsby-plugin-lodash": "3.0.3",

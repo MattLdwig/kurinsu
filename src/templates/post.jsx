@@ -35,8 +35,8 @@ export default class PostTemplate extends React.Component {
           <SEO postPath={slug} postNode={postNode} postSEO />
           <Header config={config}/>
           <div className="post-container">
-            <img className="post-container__hero" src={post.cover} />
             <h1 className="post-container__title">{post.title}</h1>
+            <img className="post-container__hero" src={post.cover} />
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta">
               <SocialLinks postPath={slug} postNode={postNode} />
@@ -65,6 +65,7 @@ export const pageQuery = graphql`
         date
         category
         tags
+        description
       }
       fields {
         nextTitle
