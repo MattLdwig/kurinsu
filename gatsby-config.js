@@ -150,7 +150,7 @@ module.exports = {
         {
           site {
             siteMetadata {
-              menuLinks {
+              menuLink {
                 name
                 link
               }
