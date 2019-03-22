@@ -32,10 +32,11 @@ class Disqus extends Component {
       config.siteUrl,
       postNode.fields.slug
     );
+    const id = post.title.replace(/\s+/g,'');
     return (
       <ReactDisqusComments
         shortname={config.disqusShortname}
-        identifier={post.title}
+        identifier={id}
         title={post.title}
         url={url}
         category_id={post.category_id}

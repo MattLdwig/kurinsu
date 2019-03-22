@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kurinsu]]></title><description><![CDATA[Développement personnel, inspiration et productivité.]]></description><link>https://kurinsu.com/</link><image><url>https://kurinsu.com//logos/logo-512.png</url><title>Kurinsu</title><link>https://kurinsu.com/</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 22 Mar 2019 06:27:16 GMT</lastBuildDate><atom:link href="https://kurinsu.com//rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2019. Kurinsu]]></copyright><item><title><![CDATA[Résoudre ses problèmes grâce à la méthode des 5 pourquoi]]></title><link>https://kurinsu.com//methode-des-cinq-pourquoi</link><guid isPermaLink="false">https://kurinsu.com//methode-des-cinq-pourquoi</guid><category><![CDATA[DEVELOPPEMENT PERSONNEL]]></category><pubDate>Tue, 19 Mar 2019 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Nos vies sont pleines de problèmes. &lt;/p&gt;
+&lt;p&gt;Petits problèmes du quotidien ou gros soucis qui semblent insurmontables, nous devons tous, chaque jour, faire face à une miriade de situations problèmatiques.&lt;/p&gt;
+&lt;p&gt;Hors, bien souvent, nous avons tendance à répondre à ces situations de manière &lt;em&gt;réactive&lt;/em&gt;. Pressé de résoudre le plus rapidement possible le problème posé, nous concentrons notre énergie sur ses le traitement de ses symptômes plutôt que sur ses causes profondes. &lt;/p&gt;
+&lt;p&gt;Si cette approche peut être très efficace pour gérer les simples problèmes du quotidien, elle montre rapidement ses limites face à des situations plus périlleuse ou face à des problèmes récurrents. &lt;/p&gt;
+&lt;p&gt;Pour résoudre ce genre de cas, il va falloir creuser un peu. C&apos;est ici qu&apos;intervient la &lt;strong&gt;méthode des 5 pourquoi&lt;/strong&gt;. &lt;/p&gt;
+&lt;h2 id=&quot;la-méthode-des-cinq-pourquoi-&quot;&gt;&lt;a href=&quot;#la-m%C3%A9thode-des-cinq-pourquoi-&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;La méthode des cinq pourquoi ?&lt;/h2&gt;
+&lt;p&gt;La méthode des cinq pourquoi est un outil incroyablement simple permettant de trouver la &lt;strong&gt;source du problème&lt;/strong&gt; auquel vous faite face. Elle se base sur une chose que nous savions parfaitement faire lorsque nous étions enfant: répéter inlassablement la même question, &lt;strong&gt;pourquoi&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Le processus est simple:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prenez votre problème et inscrivez le sur une feuille de papier.&lt;/li&gt;
+&lt;li&gt;Posez vous la question: &lt;strong&gt;Pourquoi ?&lt;/strong&gt; et inscrivez la réponse sur la ligne suivante (en essayant d&apos;être aussi synthétique et précis que possible).&lt;/li&gt;
+&lt;li&gt;A partir de cette réponse, demandez-vous à nouveau &lt;strong&gt;Pourquoi ?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Répéter l&apos;opération trois fois de plus, en cherchant à chaque étape le &lt;strong&gt;Pourquoi ?&lt;/strong&gt; de votre réponse précédente. &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Au bout de cinq pourquoi, prenez un moment pour vous demander si vous avez réussi à identifier la réelle source de votre problème.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si oui, inscrivez les solutions qui vous viennent à l&apos;esprit pour le résoudre.&lt;/li&gt;
+&lt;li&gt;Si non, continuez le processus jusqu&apos;à atteindre un niveau de compréhension du problème que vous estimez satisfaisant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Les &quot;vrais&quot; problèmes sont comme des icebergs Ils ne laissent apparaître qu&apos;une infime portion de ce qu&apos;ils sont vraiment.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c626f45e7d4e25b25696abd4cda6eef4/7cfca/iceberg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 760px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.69642857142857%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAeq1DxJkE//EABoQAAICAwAAAAAAAAAAAAAAAAABAhEDEBL/2gAIAQEAAQUCUizpbeSn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAACAy/9oACAEBAAY/Alk//8QAGRAAAwADAAAAAAAAAAAAAAAAAAERMUGR/9oACAEBAAE/IUEMaGKSQ1gXCOn/2gAMAwEAAgADAAAAEGvf/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EEf/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMWFxgfD/2gAIAQEAAT8QSDoYAw9lQVfBLbjW6uKDcvczAfOT/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;iceberg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c626f45e7d4e25b25696abd4cda6eef4/51f7f/iceberg.jpg&quot;
+        srcset=&quot;/static/c626f45e7d4e25b25696abd4cda6eef4/663ea/iceberg.jpg 190w,
+/static/c626f45e7d4e25b25696abd4cda6eef4/fb0bd/iceberg.jpg 380w,
+/static/c626f45e7d4e25b25696abd4cda6eef4/51f7f/iceberg.jpg 760w,
+/static/c626f45e7d4e25b25696abd4cda6eef4/7cfca/iceberg.jpg 1120w&quot;
+        sizes=&quot;(max-width: 760px) 100vw, 760px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C&apos;est ce qu&apos;avait compris l&apos;industriel japonais Sakichi Toyada. Fondateur de l&apos;entreprise Toyota, Sakichi Toyada a développée cette méthode pour &lt;strong&gt;résoudre les problèmes&lt;/strong&gt; rencontrés au sein de son entreprise. &lt;/p&gt;
+&lt;p&gt;Sa force provient de sa simplicité. En se concentrant la répétition d&apos;une question simple, elle nous force à nous concentrer sur la partie immergée de l&apos;iceberg. Celle où se cache les &lt;strong&gt;réelles causes&lt;/strong&gt; du problèmes qui nous préoccupe.&lt;/p&gt;
+&lt;h2 id=&quot;exemple-pratique&quot;&gt;&lt;a href=&quot;#exemple-pratique&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Exemple pratique&lt;/h2&gt;
+&lt;p&gt;Imaginons que vous vouliez perdre quelques kilos avant l&apos;été, mais que vous n&apos;y parveniez pas.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Problème de base: &quot;Je n&apos;arrive pas à perdre du poid.&quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pourquoi ?&lt;/strong&gt;: &quot;Parce que je grignote toujours devant la TV&quot;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pourquoi ?&lt;/strong&gt;: &quot;Parce que c&apos;est un moment agréable et un plaisir que j&apos;ai du mal à me refuser&quot;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pourquoi ?&lt;/strong&gt;: &quot;Parce que j&apos;accumule beaucoup de stress tout au long de la journée et que j&apos;ai besoin d&apos;un exhutoire le soir venu.&quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pourquoi ?&lt;/strong&gt;: &quot;Parce que je ne suis pas épanoui·e dans mon travail.&quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pourquoi ?&lt;/strong&gt;: &quot;Parce que je n&apos;occupe pas le poste que je souhaiterai.&quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A ce stade, vous avez déjà une &lt;strong&gt;connaissance plus profonde&lt;/strong&gt; du réel problème. Et, comme vous le voyez, la difficulté à perdre du poid n&apos;est qu&apos;un effet découlant d&apos;un problème bien plus important. Il est toujours possible d&apos;ignorer ces causes profondes (en se mettant au régime sans chercher à résoudre les difficultés sous-jascentes), mais le risque est alors grand que le problème réapparaisse (une fois le régime terminé).&lt;/p&gt;
+&lt;h2 id=&quot;une-fois-le-problème-identifié-il-est-temps-de-trouver-des-solutions&quot;&gt;&lt;a href=&quot;#une-fois-le-probl%C3%A8me-identifi%C3%A9-il-est-temps-de-trouver-des-solutions&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Une fois le problème identifié, il est temps de trouver des solutions.&lt;/h2&gt;
+&lt;p&gt;Si la &lt;strong&gt;méthode des cinq pourquoi&lt;/strong&gt; se limite à ... cinq pourquoi, ce n&apos;est pas une règle absolue. Rien ne vous empêche de creuser encore plus profondément pour découvrir les racines de la difficulté qui vous occupe.
+Une fois ceci fait, il ne reste plus qu&apos;à lister quelques actions enviseagables pour y remédier. Passer un moment à brainstormer, en laissant les idées affluer &lt;strong&gt;sans les juger&lt;/strong&gt;.  &lt;/p&gt;
+&lt;p&gt;Par exemple, pour résoudre le problème &quot;Je n&apos;occupe pas le poste que je souhaiterai&quot;, je pourrai:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prendre des cours du soir pour me former à un nouveau métier&lt;/li&gt;
+&lt;li&gt;Chercher un nouveau job plus en phase avec mes ambitions&lt;/li&gt;
+&lt;li&gt;Parler de ma situation à un supérieur pour trouver une solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dans le même temps, je pourrai aussi chercher une nouvelle activité détendante que je pourrai pratiquer en soirée, et ainsi éviter le risque de grignoter devant la TV. Ainsi, tout en commencant à régler le problème de fond, je m&apos;attaquerai également au problème &lt;em&gt;immédiat&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;Listez toute les idées de solutions qui vous viennent à l&apos;esprit puis accordez vous un moment de repos. Quelques heures plus tard (ou le lendemain par exemple), reprennez votre liste d&apos;idées et faite le tri. Ne reste plus qu&apos;à sélectionner les solutions qui vous semblent les plus appropriées (en essayant d&apos;en trouver au moins une applicable immédiatement) et à les mettre en place dans votre quotidien. &lt;/p&gt;
+&lt;h3 id=&quot;et-vous-comment-allez-vous-appliquer-la-méthode-des-5-pourquoi-&quot;&gt;&lt;a href=&quot;#et-vous-comment-allez-vous-appliquer-la-m%C3%A9thode-des-5-pourquoi-&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Et vous, comment allez-vous appliquer la méthode des 5 pourquoi ?&lt;/h3&gt;
+&lt;p&gt;Je suis certain que vous avez, vous-aussi, des problèmes &lt;em&gt;icebergs&lt;/em&gt; que vous aimeriez résoudrent. Alors, pourquoi ne pas essayez d&apos;en découvrir la source avec la &lt;strong&gt;méthode des 5 pourquoi&lt;/strong&gt; ?&lt;/p&gt;
+&lt;p&gt;Je serai heureux de découvrir vos expériences. Est-ce que cette méthode à fonctionnée pour vous ? Qu&apos;avez-vous découvert sur vous même ? &lt;/p&gt;</content:encoded><author>hello@kurinsu.com</author></item></channel></rss>
