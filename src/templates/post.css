@@ -22,3 +22,8 @@
 .post-container li {
     margin: 0.75em 0;
 }
+
+.post-container a {
+    color: var(--accentColor) !important;
+    font-weight: bold;
+}
