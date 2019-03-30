@@ -24,6 +24,11 @@
     margin: 0;
 }
 
+.nav__offCanvas {
+    background: #FFF;
+    transition: all .5s ease-out;
+}
+
 @media screen and (min-width: 1100px) {
     .nav-toggle {
         display: none;

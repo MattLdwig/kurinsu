@@ -29,11 +29,11 @@ class PostListing extends React.Component {
           if (post === postList[0]) {
             return (
               <div className="post-card__hero" style={style} key={post.title}>
+                <Link to={post.path} key={`${post.title}_post`} className="post-card__link">
                 <p className="post-card__complementary">
                   <span className="post-card__tag">{post.tags}</span>
                   <span className="post-card__date">{post.displayDate}</span>
                 </p> 
-                <Link to={post.path} key={`${post.title}_post`} className="post-card__link">
                 <div className="post-card__info">
                   <h1 className="post-card__hero-title">{post.title}</h1>
                 </div>

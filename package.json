@@ -33,10 +33,12 @@
     "npm": "^6.9.0",
     "prismjs": "^1.15.0",
     "react": "^16.7.0",
+    "react-aria-offcanvas": "^1.1.10",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.5.0",
+    "react-responsive": "^6.1.1",
     "react-share": "^2.4.0",
     "react-twitter-widgets": "^1.7.1",
     "url-join": "^4.0.0"

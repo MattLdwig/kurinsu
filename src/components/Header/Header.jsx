@@ -1,5 +1,8 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { Link } from "gatsby";
+import Navigation from './Navigation';
+import MediaQuery from 'react-responsive';
+import OffCanvas from 'react-aria-offcanvas';
 import UserLinks from "../UserLinks/UserLinks";
 import "./Header.css";
 
@@ -19,6 +22,10 @@ class Header extends Component {
     })
   }
 
+  open = () => {
+    this.setState({ isOpen: !this.state.isOpen })
+  }
+
   render() {
     const { config } = this.props;
     const url = config.menuLink;
@@ -34,20 +41,27 @@ class Header extends Component {
         <div className="header--container">
         <div className="header__mobile">
           <Link to={url[0].link}><img className="logo" src={logo} /></Link>
-          <div className="nav-toggle" onClick={this.toggleNav}>
+          <div className="nav-toggle" onClick={this.open}>
             <div className="nav-toggle__bar"></div>
             <div className={isOpenAnim}></div>
             <div className="nav-toggle__bar"></div>
           </div>
           </div>
-          <nav className={isOpen}>
-            <ul className="primary-nav__items">
-              <li className="item"><Link to={url[1].link}>⚙️ PRODUCTIVITÉ</Link></li>
-              <li className="item"><Link to={url[2].link}>💡 INSPIRATION</Link></li>
-              <li className="item"><Link to={url[3].link}>🕊️ DÉVELOPPEMENT</Link></li>
-              <li className="item no-margin"><Link to={url[4].link}>💌 NEWSLETTER</Link></li>
-            </ul>
-          </nav>
+          <MediaQuery maxWidth={1100}>
+            <OffCanvas
+              isOpen={this.state.isOpen}
+              onClose={this.open}
+              labelledby="nav-toggle"
+              height={"100vh"}
+              className={'nav__offCanvas'}
+
+              >
+                <Navigation config={config} />
+              </OffCanvas>
+          </MediaQuery>
+          <MediaQuery minWidth={1101}>
+            <Navigation config={config}/>
+          </MediaQuery>
         </div>
       </header>
     );
