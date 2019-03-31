@@ -54,13 +54,14 @@ class Header extends Component {
               labelledby="nav-toggle"
               height={"100vh"}
               className={'nav__offCanvas'}
-
+              returnFocusAfterClose={false}
               >
-                <Navigation config={config} />
+                <Navigation config={config} isMobile={true} navToggle={this.open}/>
+                <div onClick={this.open} className="close"></div>
               </OffCanvas>
           </MediaQuery>
           <MediaQuery minWidth={1101}>
-            <Navigation config={config}/>
+            <Navigation config={config} isMobile={false} navToggle={this.open}/>
           </MediaQuery>
         </div>
       </header>

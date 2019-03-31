@@ -155,13 +155,6 @@
 
 /*** MEDIA QUERIES ***/
 
-@media screen and (max-width: 1280px) {
-	.index-container {
-		grid-template-columns: 30px 1fr 30px;
-	}
-
-}
-
 @media screen and (max-width: 1000px) {
     .post-listing__container_sub {
         grid-template-columns: 1fr;

@@ -12,10 +12,10 @@ class Navigation extends Component {
     return (
         <nav id="menu">
         <ul className="primary-nav__items">
+            <li className="item"><Link to={url[0].link}>🏠 ACCUEIL</Link></li> 
             <li className="item"><Link to={url[1].link}>⚙️ PRODUCTIVITÉ</Link></li>
             <li className="item"><Link to={url[2].link}>💡 INSPIRATION</Link></li>
-            <li className="item"><Link to={url[3].link}>🕊️ DÉVELOPPEMENT</Link></li>
-            <li className="item no-margin"><Link to={url[4].link}>💌 NEWSLETTER</Link></li>
+            <li className="item no-margin"><Link to={url[3].link}>🕊️ DÉVELOPPEMENT</Link></li>
         </ul>
         </nav>
     );
