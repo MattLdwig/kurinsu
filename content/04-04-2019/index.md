@@ -105,11 +105,14 @@ Cette décomposition permettra aux habitudes de s'ancrer naturellement. Et de bo
 Il n'existe qu'un seul et unique moyen de changer la perception que vous avez de vous-même: **devenir celui ou celle que vous voulez être**. Et là encore, le moyen le plus simple d'y parvenir passe par la répétition de petites actions.
 
 Vous voulez parler anglais? Commencer dès aujourd'hui et fixer vous un objectif minime. Apprendre 5 mots par jour par exemple.
-2000. C'est la moyenne du nombre de mots nécessaire pour être capable de tenir une conversation dans une langue étrangère.
+
+2000, c'est la moyenne du nombre de mots nécessaire pour être capable de tenir une conversation dans une langue étrangère.
 
 2000 / 5 = 400. En 400 jours, vous aurez acquis le vocabulaire suffisant pour vous débrouiller dans la plupart des situations. 400 jours, ça n'est pas si long finalement. Tout ça en se limitant à 5 nouveaux mots par jour.
 
-Vous voulez commencer le jogging? Commencer par quelques minutes une ou deux fois par semaine. Puis, quand vous vous sentirez prêt·e, augmenter la durée ou la fréquence de vos courses. Au bout de quelques mois, vous pourrez sans doute courir ces 10km qui semblent terrifiants aujourd'hui. Au bout d'un an, vous serez prêt·e pour courir un marathon.
+Vous voulez commencer le jogging? Commencer par quelques minutes une ou deux fois par semaine. Puis, quand vous vous sentirez prêt·e, augmenter la durée ou la fréquence de vos courses. 
+
+Au bout de quelques mois, vous pourrez sans doute courir ces 10km qui semblent terrifiants aujourd'hui. Au bout d'un an, vous serez prêt·e pour courir un marathon.
 
 Plus important encore que l'objectif final, cette pratique régulière permet deux choses:
 * de vous concentrer sur le processus et non sur le résultat.
@@ -118,11 +121,14 @@ Plus important encore que l'objectif final, cette pratique régulière permet de
 ### Concentrer vous sur le processus, pas sur le résultat
 
 Lorsque nous nous lançons dans un challenge, nous avons tendance à nous concentrer sur le résultat. Logique, puisqu'il est la source de notre motivation d'origine. Mais au cours de l'apprentissage d'une pratique, il est bien plus important de se concentrer sur le processus en lui-même. Cela permet d'éviter la frustration de ne pas voir les choses avancer assez vite.
+
 **Au lieu de mesurer combien vous êtes loin du résultat final, mesurez vos progrès et planifiez votre lendemain.** À force de pratique et de constance, le résultat arrivera sans même que vous ne vous en rendiez compte.
 
 ### Changer votre perception des choses
 
-Vous l'aurez compris, bon nombre de blocages viennent en majorité de l'intérieur même de notre cerveau. Et de la façon dont nous nous percevons. La pratique régulière et l'accomplissement de petits objectifs boostent notre confiance en nous. (Ou la confiance en soi) À force de chausser ses baskets deux fois par semaine, ou d'ouvrir son appli de vocabulaire chaque jour, on modifie notre regard sur nous-même.
+Vous l'aurez compris, bon nombre de blocages viennent en majorité de l'intérieur même de notre cerveau. Et de la façon dont nous nous percevons. 
+
+La pratique régulière et l'accomplissement de petits objectifs boostent notre confiance en nous. (Ou la confiance en soi) À force de chausser ses baskets deux fois par semaine, ou d'ouvrir son appli de vocabulaire chaque jour, on modifie notre regard sur nous-même.
 
 Les petites victoires du quotidien nous libèrent peu à peu de l'état d'esprit fixe. Et nous prouvent que quoi qu'on puisse en penser, nous sommes tout à fait capable d'atteindre nos objectifs.
 

@@ -39,12 +39,6 @@ const config = {
       url: "https://facebook.com/kurinsu",
       iconClassName: "fa fa-envelope",
       icon: "/icons/facebook.svg"
-    },
-    {
-      label: "Medium",
-      url: "https://medium.com/kurinsu",
-      iconClassName: "fa fa-envelope",
-      icon: "/icons/medium.svg"
     }
   ],
   menuLink: [
