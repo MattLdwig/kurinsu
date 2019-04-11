@@ -1,4 +1,4 @@
-# Cryptisla
+# Kurinsu
 
 [Live version](https://kurinsu.com)
 
